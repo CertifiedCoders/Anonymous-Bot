@@ -1,1 +1,1 @@
-worker: python3 JARVIS.py
+worker: python3 anonymous.py
