@@ -1,21 +1,13 @@
 {
-  "name": "Anonymous Bot",
-  "description": "A Simple and Effective Lawless Anonymous Sender Bot Made with Python",
-  "repository": "https://github.com/doraemon890/Anonymous_Bot",
-  "logo": "https://telegra.ph/file/a4e3ac054eaa2ccbea7f4.png",
-  "keywords": ["telegram", "Anonymous Sender", "Hide sender", "telegram bot"],
+  "name": "Anon Sender PTB Bot",
+  "description": "A Telegram bot to anonymously resend forwarded messages using python-telegram-bot.",
+  "repository": "https://github.com/yourusername/anon-sender-bot",
+  "logo": "https://telegra.ph/file/0ff0e9c5a944f6c0bda96.jpg",
+  "keywords": ["telegram", "bot", "python", "anonymous", "ptb"],
   "env": {
     "BOT_TOKEN": {
-      "description": "Your Bot token from @Botfather",
-      "value": ""
-    },
-    "API_ID": {
-      "description": "Your API_ID from https://my.telegram.org/apps",
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "Your API_HASH from https://my.telegram.org/apps",
-      "value": ""
+      "description": "Telegram Bot Token from @BotFather",
+      "required": true
     }
   },
   "buildpacks": [
@@ -23,5 +15,14 @@
       "url": "heroku/python"
     }
   ],
-  "stack": "heroku-22"
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [],
+  "scripts": {
+    "postdeploy": "echo Bot has been deployed!"
+  }
 }
