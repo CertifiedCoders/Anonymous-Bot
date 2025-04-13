@@ -33,7 +33,7 @@ START_KEYBOARD = InlineKeyboardMarkup([
     ],
     [
         InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/CertifiedNetwork"),
-        InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://t.me/Doraa_World")
+        InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/CertifiedCoders/Anonymous-Bot")
     ]
 ])
 
