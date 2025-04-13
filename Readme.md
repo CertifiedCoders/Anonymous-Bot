@@ -29,13 +29,11 @@ A Telegram bot that anonymously resends messages and media with inline reply opt
 1. Clone the repo:
     ```bash
     git clone https://github.com/CertifiedCoders/Anonymous-Bot
-    cd anon-sender-bot
+    cd Anonymous-Bot
     ```
 
-2. Create a virtual environment and install dependencies:
+2. Install dependencies:
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate
     pip install -r requirements.txt
     ```
 
@@ -46,7 +44,7 @@ A Telegram bot that anonymously resends messages and media with inline reply opt
 
 4. Run the bot:
     ```bash
-    python bot.py
+    python anonymous.py
     ```
 
 ---
