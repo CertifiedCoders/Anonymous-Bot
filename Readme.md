@@ -16,7 +16,7 @@ A Telegram bot that anonymously resends messages and media with inline reply opt
 
 ### ⚡ Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yourusername/anon-sender-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CertifiedCoders/Anonymous-Bot)
 
 1. Click the button above.
 2. Add `BOT_TOKEN` from [@BotFather](https://t.me/BotFather)
@@ -28,7 +28,7 @@ A Telegram bot that anonymously resends messages and media with inline reply opt
 
 1. Clone the repo:
     ```bash
-    git clone https://github.com/yourusername/anon-sender-bot
+    git clone https://github.com/CertifiedCoders/Anonymous-Bot
     cd anon-sender-bot
     ```
 
