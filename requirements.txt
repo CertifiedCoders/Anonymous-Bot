@@ -1,3 +1,2 @@
-pyrogram
-TgCrypto
+python-telegram-bot==20.8
 python-dotenv
